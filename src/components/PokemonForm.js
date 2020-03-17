@@ -13,6 +13,12 @@ class PokemonForm extends React.Component {
     }
   }
 
+  handleSubmit = () => {
+    this.props.addPokemon(pokemon)
+  }
+
+  // need to fetch and add handleSubmit to form input
+
   render() {
     return (
       <div>
