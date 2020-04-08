@@ -3,7 +3,6 @@ import React from 'react'
 const Search = props => {
   const handleKeystroke = (event) => {
     props.setSearchTerm(event.target.value)
-    // props.filteredPokedex()
   }
 
   return (
